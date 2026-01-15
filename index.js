@@ -3,7 +3,7 @@ import moment from "moment";
 import simpleGit from "simple-git";
 
 const path = "./data.json";
-const date = moment().subtract(175,'d').format();
+const date = moment().subtract(2,'d').format();
 
 const data = {
   date: date,
